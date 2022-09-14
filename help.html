@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/pages/common.css">
+    <title>TUP_LabComII_TP_Integrador</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <span>Clima App</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Clima</a></li>
+                <li><a href="add-city.html">Agregar Ciudad</a></li>
+                <li class="current-page"><a href="#">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Seccion de Ayuda de ClimaApp</h2>
+        <p>Esta APP permite consultar el clima de una ciudad en particularutilizando la </p> 
+        <p> API de <a href=“https://openweathermap.org/api” target="_blank">OpenWeatherMap</a>. </p>
+        <p>Para poder consultar el clima, primero deberá <a href="add-city.html">AgregarUnaCiudad</a> y luego</p>
+        <p>seleccionar la ciudad desde la página <a href="index.html">Clima</a>.</p>
+
+        <section>
+            <form>
+                <label for="Ingresar Nombre">Nombre:</label>
+                <input type="text" id="Nombre"></input>
+                <p>
+                    <label for="Ingresar email">Email:</label>
+                    <input type="email" id="Email"></input>
+                </p>
+                <p>
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea name="Mensaje" rows="10" cols="50"></textarea>
+                </p>
+                <p>
+                    <button type="reset">Borrar</button>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </section>
+        <section id="form-city-list"></section>
+        <section id="section-weather-result"></section>
+    </main>
+    <footer>
+        <p>
+            Desarrollado por Lisandro Adagio
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
