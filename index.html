@@ -3,11 +3,14 @@
 
 <head>
     <link rel="stylesheet" href="css/pages/common.css">
-    <title>TUP_LabComII_TP_Integrador</title>
+    <link rel="stylesheet" href="css/pages/index.css">
+    <title>TUP_LabComII_TP_Integrador</title> 
+    <meta charset="UTF-8">
 </head>
 <body>
     <header>
         <h1>
+            <img class="redimension" src="images/logo_clima.png" alt="clima" >
             <span>Clima App</span>
         </h1>
         <nav>
@@ -22,23 +25,23 @@
         <h2>El Clima Ahora</h2>
         <section id="form-city-list">
             <form>
-                <select name="Seleccionable" id="Seleccionable">
+                <select class="select" name="Seleccionable" id="Seleccionable">
                     <option value=""-disabled-selected="">Seleccionar Ciudad</option>
                     <option value="ROSARIO">ROSARIO</option>
                     <option value="RAFAELA">RAFAELA</option>
                 </select>
-                <button type="submit">Consultar</button>
+                <button class="button" type="submit">Consultar</button>
             </form>
         </section>
         <section id="section-weather-result">
             <div class="card">
                 <h3>Rosario</h3>
-                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="Rosario" width="100" >
-                <p>Temperatura: 25.31°</p>
-                <p>Sensasión Térmica: 24.65°</p>
-                <p>Humedad: 29°</p>
-                <p>Velocidad del Viento: 4.63km/h</p>
-                <p>Presión: 1011p</p>
+                <img src="images/imagen_climaapp.png" alt="Rosario" width="100" >
+                <p>Temperatura: 13.76°</p>
+                <p>Sensasión Térmica: 12.91°</p>
+                <p>Humedad: 66%</p>
+                <p>Velocidad del Viento: 2.06km/h</p>
+                <p>Presión: 1024p</p>
             </div>
         </section>
 
